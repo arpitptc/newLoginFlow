@@ -1,0 +1,26 @@
+.login-form{
+    max-width: 427px;	
+    border-radius: 5px;
+    box-shadow: $boxShadow;
+    margin: 40px auto;
+    padding: 30px 54px;
+
+    fieldset{
+        border: 0;
+        padding: 0;
+    }
+
+    h2{
+        @include fontSize(24px);	
+        font-weight: 500;	
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .h2-subtext{
+        @include fontSize(16px);	
+        font-weight: 300;	
+        line-height: 22px;
+        text-align: center
+    }
+}

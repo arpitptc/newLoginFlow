@@ -1,9 +1,15 @@
+@import 
 // Loading libraries
 // "libs/"
 
 // Loading base/generic classes
 "base/_palette",
 "base/_variables",
+
+// loading mixins
+"helpers/mixins/_rem",
+"helpers/mixins/_fontsize",
+
 "base/_web-fonts",
 "base/_images",
 "base/_reuse",
@@ -17,19 +23,18 @@
 "elements/_input-fields",
 
 // Loading components
-"components/_search-bar",
+"components/_logo",
 "components/_nav",
-"components/_menu",
 "components/_sidebar",
 
 // First loading error & loading template classes
-"templates/_loading",
 "templates/_error",
 
 // Loading templates specific classes
+"templates/_header",
 "templates/_alert-msg",
 "templates/_forms",
 
 // Loading page specific classes
 "pages/_404.scss",
-"pages/_home-page.scss"
+"pages/_home-page.scss";

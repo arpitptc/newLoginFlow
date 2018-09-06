@@ -1,5 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
 }
+
 body{
-	
+    margin: 0;
+    font-family: Avenir;	
+    color: $black;
+}
+
+button, input{
+    font-family: Avenir; 
 }
