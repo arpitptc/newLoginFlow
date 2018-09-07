@@ -93,5 +93,44 @@ button, input {
   font-weight: 300;
   line-height: 22px;
   text-align: center; }
+.login-form .login-page-links {
+  margin-top: 20px; }
+.login-form .login-page-links .forgot-password-link {
+  text-decoration: none;
+  color: #464646;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  float: left; }
+.login-form .login-page-links .forgot-password-link:hover {
+  color: #69BF4A; }
+.login-form .login-page-links .forgot-password-link:active {
+  color: #69BF4A; }
+.login-form .login-page-links .have-access-code-link {
+  text-decoration: none;
+  color: #464646;
+  font-weight: 500;
+  line-height: 19px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  float: right; }
+.login-form .login-page-links .have-access-code-link:hover {
+  color: #69BF4A; }
+.login-form .login-page-links .have-access-code-link:active {
+  color: #69BF4A; }
+.login-form .login-shoutout {
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 68px;
+  padding-left: 74px;
+  background: url("../images/PTC_logo_01.png") no-repeat left center;
+  background-size: contain;
+  clear: both; }
+.login-form hr {
+  background-color: #D8D8D8;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style.css.map */

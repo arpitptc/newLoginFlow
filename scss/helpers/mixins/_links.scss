@@ -1,0 +1,24 @@
+@mixin getLink($inputs: ()) {
+    //Setting defaults
+    $defaults: (
+      color: initail,
+      hoverColor: initail,
+        activeColor: initail,
+      textUnderline: none
+    );
+  
+    $options: map-merge($defaults, $inputs);
+
+    text-decoration: none;
+    color: map-get($options,color);
+    font-weight: 500;	
+    line-height: 19px;
+
+    &:hover{
+        color: map-get($options, hoverColor);
+    }
+
+    &:active{
+        color: map-get($options, activeColor);
+    } 
+}

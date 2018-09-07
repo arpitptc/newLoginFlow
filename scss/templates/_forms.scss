@@ -23,4 +23,47 @@
         line-height: 22px;
         text-align: center
     }
+
+    .login-page-links{
+        margin-top: 20px;
+
+        .forgot-password-link{
+            @include getLink((
+                color: #464646,
+                hoverColor: $green,
+                activeColor: $green
+            ));
+            @include fontSize(14px);
+    
+            float: left;
+        }
+    
+        .have-access-code-link{
+            @include getLink((
+                color: #464646,
+                hoverColor: $green,
+                activeColor: $green
+            ));      
+            @include fontSize(14px);
+    
+            float: right;
+        }
+    }
+
+    .login-shoutout{
+        @include fontSize(14px);
+
+        font-weight: 300;
+        line-height: 19px;
+        margin-top: 68px;
+        padding-left: 74px;
+        background: url('#{$_imageDir}PTC_logo_01.png') no-repeat left center;
+        background-size: contain;
+        clear: both;
+    }
+
+    hr{
+        background-color: #D8D8D8;	
+        box-shadow: $boxShadow;
+    }
 }

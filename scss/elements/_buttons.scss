@@ -1,7 +1,7 @@
 .full-width-button{
     @include fontSize(18px);
     width: 100%;
-    background-color: #69BF4A;	
+    background-color: $green;	
     box-shadow: $boxShadow;
     font-weight: 500;	
     line-height: 25px;	
