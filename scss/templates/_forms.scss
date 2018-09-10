@@ -12,7 +12,7 @@
 
     h2{
         @include fontSize(24px);	
-        font-weight: 500;	
+        font-weight: 600;	
         line-height: 33px;
         text-align: center;
     }
@@ -55,15 +55,46 @@
 
         font-weight: 300;
         line-height: 19px;
-        margin-top: 68px;
-        padding-left: 74px;
+        margin-top: 63px;
+        padding: 5px 0 5px 74px;
         background: url('#{$_imageDir}PTC_logo_01.png') no-repeat left center;
         background-size: contain;
         clear: both;
+        //text-align: left;
     }
 
     hr{
         background-color: #D8D8D8;	
-        box-shadow: $boxShadow;
+        height: 1px;
+        border: 0;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+        margin: 25px auto;
+    }
+
+    p{
+        @include fontSize(14px);
+        color: #3E3E3E;
+        font-size: 14px;	
+        font-weight: 300;	
+        line-height: 19px;
+    }
+
+    .registerLink{
+        @include getLink((
+            color: $green,
+            hoverColor: $green,
+            activeColor: $green
+        ));
+        margin-left: 8px;
+    }
+
+    .custom-dropdown{
+        @include fontSize(12px);	
+        font-weight: 500;	
+        line-height: 16px;	
+        text-align: center;
+        color: #4A4A4A;
+        margin: 40px auto;
+        border: 0;
     }
 }

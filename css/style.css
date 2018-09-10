@@ -84,7 +84,7 @@ button, input {
 .login-form h2 {
   font-size: 24px;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 33px;
   text-align: center; }
 .login-form .h2-subtext {
@@ -124,13 +124,42 @@ button, input {
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 19px;
-  margin-top: 68px;
-  padding-left: 74px;
+  margin-top: 63px;
+  padding: 5px 0 5px 74px;
   background: url("../images/PTC_logo_01.png") no-repeat left center;
   background-size: contain;
   clear: both; }
 .login-form hr {
   background-color: #D8D8D8;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+  height: 1px;
+  border: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  margin: 25px auto; }
+.login-form p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #3E3E3E;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px; }
+.login-form .registerLink {
+  text-decoration: none;
+  color: #69BF4A;
+  font-weight: 500;
+  line-height: 19px;
+  margin-left: 8px; }
+.login-form .registerLink:hover {
+  color: #69BF4A; }
+.login-form .registerLink:active {
+  color: #69BF4A; }
+.login-form .custom-dropdown {
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #4A4A4A;
+  margin: 40px auto;
+  border: 0; }
 
 /*# sourceMappingURL=style.css.map */
