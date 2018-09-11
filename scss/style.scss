@@ -11,6 +11,9 @@
 "helpers/mixins/_fontsize",
 "helpers/mixins/_links",
 
+//loading bootstrap
+// "helpers/bootstrap/stylesheets/_bootstrap",
+
 "base/_web-fonts",
 "base/_images",
 "base/_reuse",
@@ -33,8 +36,6 @@
 // Loading templates specific classes
 "templates/_header",
 "templates/_alert-msg",
-"templates/_forms",
+"templates/_forms";
 
 // Loading page specific classes
-"pages/_404.scss",
-"pages/_home-page.scss";

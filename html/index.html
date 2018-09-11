@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	</head>
 	<body>
@@ -26,7 +35,7 @@
 				<hr/>
 				<p>Don’t have an account?<a class="registerLink" href="#">Create one here</a>.</p>
 			</form>
-			<select class="custom-dropdown">
+			<!-- <select class="custom-dropdown">
 				<option value="">ENGLISH</option>
 				<option value="FRENCH">FRENCH</option>
 				<option value="GERMAN">GERMAN</option>
@@ -35,7 +44,34 @@
 				<option value="TRADITIONAL CHINESE">TRADITIONAL CHINESE</option>
 				<option value="ITALIAN">ITALIAN</option>
 				<option value="KOREAN">KOREAN</option>
-			</select>
+			</select> -->
+			<div class="dropdown show">
+				<a class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ENGLISH</a>
+			  
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				  <a class="dropdown-item" href="#">ENGLISH</a>
+				  <a class="dropdown-item" href="#">FRENCH</a>
+				  <a class="dropdown-item" href="#">GERMAN</a>
+				  <a class="dropdown-item" href="#">JAPANESE</a>
+				  <a class="dropdown-item" href="#">SIMPLIFIED CHINESE</a>
+				  <a class="dropdown-item" href="#">TRADITIONAL CHINESE</a>
+				  <a class="dropdown-item" href="#">ITALIAN</a>
+				  <a class="dropdown-item" href="#">KOREAN</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+					<a class="btn btn-default dropdown-toggle" data-toggle="dropdown">Tutorials
+					<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+					  <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+					  <li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+					  <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li>
+					  <li role="presentation" class="divider"></li>
+					  <li role="presentation"><a role="menuitem" href="#">About Us</a></li>
+					</ul>
+				  </div>
+
 		</main>
 		<footer>
 		</footer>
