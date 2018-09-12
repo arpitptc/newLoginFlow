@@ -4,7 +4,12 @@
     box-shadow: $boxShadow;
     margin: 40px auto;
     padding: 30px 54px;
-
+    box-sizing: border-box;
+        
+    button, input{
+        font-family: Avenir; 
+    }
+    
     fieldset{
         border: 0;
         padding: 0;
@@ -51,8 +56,8 @@
         .forgot-password-link{
             @include getLink((
                 color: #464646,
-                hoverColor: $green,
-                activeColor: $green
+                hoverColor: $green-6,
+                activeColor: $green-6
             ));
             @include fontSize(14px);
     
@@ -62,15 +67,15 @@
         .have-access-code-link{
             @include getLink((
                 color: #464646,
-                hoverColor: $green,
-                activeColor: $green
+                hoverColor: $green-6,
+                activeColor: $green-6
             ));      
             @include fontSize(14px);
     
             float: right;
         }
     }
-    
+
     .login-shoutout{
         @include fontSize(14px);
 
@@ -86,9 +91,9 @@
 
     .registerLink{
         @include getLink((
-            color: $green,
-            hoverColor: $green,
-            activeColor: $green
+            color: $green-6,
+            hoverColor: $green-6,
+            activeColor: $green-6
         ));
         margin-left: 8px;
     }

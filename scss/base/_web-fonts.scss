@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Avenir';
-	src: url('#{$_fontsDir}AvenirNextLTPro-Regular.eot');
-	src: url('#{$_fontsDir}AvenirNextLTPro-Regular.woff') format('woff'),
-    url('#{$_fontsDir}AvenirNextLTPro-Regular.ttf') format('truetype'),
-    url('#{$_fontsDir}AvenirNextLTPro-Regular.svg') format('svg');
+	src: url('#{$avenirFontPath}AvenirNextLTPro-Regular.eot');
+	src: url('#{$avenirFontPath}AvenirNextLTPro-Regular.woff') format('woff'),
+    url('#{$avenirFontPath}AvenirNextLTPro-Regular.ttf') format('truetype'),
+    url('#{$avenirFontPath}AvenirNextLTPro-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
