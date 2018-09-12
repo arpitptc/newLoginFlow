@@ -75,27 +75,42 @@ button, input {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
   padding: 33px 0; }
 
-.login-form {
+.custom-form-1, .login-form {
   max-width: 427px;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   margin: 40px auto;
   padding: 30px 54px; }
-.login-form fieldset {
+.custom-form-1 fieldset, .login-form fieldset {
   border: 0;
   padding: 0; }
-.login-form h2 {
+.custom-form-1 h2, .login-form h2 {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 33px;
   text-align: center; }
-.login-form .h2-subtext {
+.custom-form-1 .h2-subtext, .login-form .h2-subtext {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 300;
   line-height: 22px;
   text-align: center; }
+.custom-form-1 hr, .login-form hr {
+  background-color: #D8D8D8;
+  height: 1px;
+  border: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  margin: 25px auto; }
+.custom-form-1 p, .login-form p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #3E3E3E;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: center; }
+
 .login-form .login-page-links {
   margin-top: 20px; }
 .login-form .login-page-links .forgot-password-link {
@@ -132,20 +147,6 @@ button, input {
   background: url("../images/PTC_logo_01.png") no-repeat left center;
   background-size: contain;
   clear: both; }
-.login-form hr {
-  background-color: #D8D8D8;
-  height: 1px;
-  border: 0;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
-  margin: 25px auto; }
-.login-form p {
-  font-size: 14px;
-  font-size: 0.875rem;
-  color: #3E3E3E;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 19px;
-  text-align: center; }
 .login-form .registerLink {
   text-decoration: none;
   color: #69BF4A;
